@@ -14,17 +14,17 @@
 # Use Tech
 
 #### Environment
-- vscode
+<img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 
 #### Development
-* Python 3.11.5
-* Django
-* Bootstrap
-* Hadoop (client, namenode(datanode1), secondnode(datanode2))
-* AWS(ubuntu) EC2 (t2.small -> t2.xlarge) * 3
-* Spark
-* Jupyter Lab
-* sqlite
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+<img src="https://img.shields.io/badge/apachehadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black">
+<img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
+<img src="https://img.shields.io/badge/apachespark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
+<img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+
 ### Communication
 <!-- <div align=center> -->
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -121,4 +121,3 @@
 - [fmkorea](https://www.fmkorea.com/fm24free)
 
 
-## Source
