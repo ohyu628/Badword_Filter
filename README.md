@@ -2,14 +2,9 @@
 > Encore Dataengineering 28기 부트캠프 mini project
 
 # Team
-|담당|이름|내용|
-|------|---|--------------------|
-|데이터 엔지니어(팀장)|지민철|AWS로 서버환경 구축 및 크롤링 데이터, 데이터셋 하둡에 저장|
-|데이터 분석|오유빈|데이터크롤링, 데이터셋 준비 및 spark로 데이터 분석 및 전처리|
-|데이터 분석|정모은|데이터크롤링, 데이터셋 준비 및 spark로 데이터 분석 및 전처리|
-|데이터 분석|최재웅|데이터크롤링, 데이터셋 준비 및 spark로 데이터 분석 및 전처리|
-|모델|김수연|리뷰데이터셋으로 감정분석 모델, 비속어 데이터셋으로 필터링 모델 학습 및 구현|
-|백엔드|김수아|Django로 게시판사이트 구현|
+|지민철|오유빈|정모은|최재웅|김수연|김수아|
+|-----|-----|-----|-----|-----|-----|
+|데이터 엔지니어(팀장)|데이터 분석|데이터 분석|데이터 분석|모델|백엔드|
 
 # Use Tech
 
@@ -17,18 +12,11 @@
 <img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 
 #### Development
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
-<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-<img src="https://img.shields.io/badge/apachehadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black">
-<img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white">
-<img src="https://img.shields.io/badge/apachespark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
-<img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/apachehadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black"> <img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"> <img src="https://img.shields.io/badge/apachespark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
 
 ### Communication
 <!-- <div align=center> -->
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
 <!-- </div> -->
 
 # 전체 프로젝트 일정
@@ -36,13 +24,15 @@
 
 # 목차
 * [프로젝트 개요](#프로젝트-개요)
-* [요구분석명세서](#기능-명세서)
+* [기능명세서](#기능-명세서)
+* [요구사항정의서](#요구사항-정의서)
 * [WBS](#wbs)
-* [데이터 파이프라인](#데이터-파이프라인)
-* [데이터 모니터링](#데이터-모니터링)
-* [Lambda와 AWS APIGateway로 모델 서빙](#lambda와-aws-apigateway로-모델-서빙)
+* [Hadoop 환경구축](#hadoop-환경구축)
+* [Spark 환경구축](#spark-환경구축)
+* [Model 서빙](#model-서빙)
 * [전체적인 아키텍처](#전체적인-아키텍처)
 * [회고](#회고)
+* [출처사이트](#출처-사이트)
 
 # 프로젝트 개요
 ![Alt text](image.png)
@@ -85,8 +75,7 @@
     * 텍스트 감정 분석을 위해 NLP 기술 사용
     * 분석 결과는 긍정, 부정, 중립으로 분류
     * 분석 결과를 사용자와 관리자에게 시각적으로 표시
-
-## Daily
+## WBS
 * 1일차
     * 비속어 데이터 크롤링
     * 일반 댓글 카테고리화 하여 크롤링
@@ -108,9 +97,11 @@
 * 4일차
     * 감정분석 모델 pth로 저장하여서 웹에 적용
     * 비속어 필터 웹에 적용
-
+## Hadoop 환경구축
+## Spark 환경구축
+## Model 서빙
 ## 전체적인 아키텍처
-
+## 회고
 ## 출처 사이트
 - [Musinsa](https://www.musinsa.com/app/?utm_source=google_shopping&utm_medium=sh&source=GOSHSAP001&utm_source=google_shopping&utm_medium=sh&source=GOSHSAP001&gclid=CjwKCAiAzJOtBhALEiwAtwj8tqGiZ3KsEj28ahRoGruhkvSVOKQpIPV9G3QI3XlZUmggjbQA3HeBvRoCmUEQAvD_BwE)
 - [일베 사이트 비속어 데이터](https://github.com/2runo/Curse-detection-data/blob/master/dataset.txt)
