@@ -1,5 +1,5 @@
 # 팀앤드(&)
-> Encore Dataengineering 28기 부트캠프 mini project
+> 온라인 커뮤니티에서 건전한 소통을 위해, 비속어 필터링 및 감정 분석 기능을 웹 게시판입니다.
 
 ## Team
 <table>
