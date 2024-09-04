@@ -26,9 +26,11 @@
 > 
 <br/>
 
+## 2. 기획 및 개발 일정 (WBS)
 
 ## 3. 개발
 ### 기술스택
+
 **Environment**<br>
 <img src="https://img.shields.io/badge/vscode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 
@@ -62,7 +64,6 @@
 * [출처사이트](#출처-사이트)
 
 # 프로젝트 개요
-![Alt text](image.png)
 * 목표
     * 장고를 사용하여 웹 게시판을 구현하고, 비속어 필터링 및 감정 분석 모델을 통해 사용자 경험을 향상시키는 것.
 
