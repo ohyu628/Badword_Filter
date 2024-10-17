@@ -99,9 +99,6 @@
 <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
 
 
-## 전체 프로젝트 일정
-* 프로젝트 일정 : 2024.01.23 ~ 2024.01.26
-
 
 ## Hadoop 환경구축
 ## Spark 환경구축
